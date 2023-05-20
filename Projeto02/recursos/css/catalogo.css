@@ -1,0 +1,96 @@
+body{
+    margin: 0;padding: 0;
+    background-image: url(../BackCatalogo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{text-align: center;}
+
+figure{
+    border-radius:25px;
+    height: 450px;
+    background-color: white;
+    width: 350px;
+}
+
+img{
+    width: 100%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.content{
+    border-radius: 15px;
+    height: 500px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.navegation{
+margin-top: 15px;
+display: flex;
+margin-left: 480px;
+}
+
+input{display: none;}
+
+.bar{
+margin-left:5px ;
+background-color: white;
+width:50px;
+height:15px;
+border:2px solid rgb(10, 10, 10);
+transition: .4s;
+}
+
+.bar:hover{
+    background-color: yellow;
+}
+
+.slides{
+    height: 100%;
+    width: 700%;
+    display: flex;
+}
+
+.slide{
+    width:14%;
+    transition:.5s;
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+    margin-left: -14%;
+}
+
+#r3:checked ~ .s1{
+    margin-left: -28%;
+}
+
+#r4:checked ~ .s1{
+    margin-left: -42%;
+}
+
+
+#r5:checked ~ .s1{
+    margin-left: -56%;
+}
+
+#r6:checked ~ .s1{
+    margin-left: -70%;
+}
+
+#r7:checked ~ .s1{
+    margin-left: -84%;
+}
